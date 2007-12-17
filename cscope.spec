@@ -12,7 +12,6 @@ Group: Development/Other
 Source: %name-%version.tar.bz2
 Patch0: cscope_prog_info.patch
 URL: http://cscope.sourceforge.net/
-Buildroot: %{_tmppath}/%{name}--buildroot
 BuildRequires: ncurses-devel
 
 %description
