@@ -1,6 +1,6 @@
 %define name    cscope
 %define version 15.6
-%define release %mkrel 1
+%define release %mkrel 3
 %define Summary C source file browser
 
 Summary:        %Summary
