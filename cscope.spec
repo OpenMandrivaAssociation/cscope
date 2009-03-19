@@ -14,7 +14,7 @@ Patch0: cscope_prog_info.patch
 URL: http://cscope.sourceforge.net/
 Buildroot: %{_tmppath}/%{name}--buildroot
 BuildRequires: ncurses-devel
-BuildRequires: bison
+BuildRequires: bison flex
 
 %description
 cscope is an interactive, screen-oriented tool that allows the user to browse
