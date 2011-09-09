@@ -1,6 +1,6 @@
 %define name    cscope
 %define version 15.7a
-%define release %mkrel 1
+%define release %mkrel 2
 %define Summary C source file browser
 
 Summary:        %Summary
@@ -31,6 +31,8 @@ through C source files for specified elements of code.
 %install
 rm -rf %buildroot
 %makeinstall_std
+mkdir -p %{buildroot}%{_datadir}/emacs/site-lisp
+install contrib/xcscope/xcscope.el %{buildroot}%{_datadir}/emacs/site-lisp/
 
 %clean
 rm -rf %buildroot
@@ -44,5 +46,6 @@ rm -rf %buildroot
 %defattr(0644,root,root,0755)
 %doc TODO COPYING ChangeLog AUTHORS README NEWS INSTALL
 %{_mandir}/man1/cscope.1*
+%{_datadir}/emacs/site-lisp/xcscope.el
 
 
