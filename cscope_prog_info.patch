@@ -1,0 +1,11 @@
+--- src/build.c~	2006-09-30 10:13:00.000000000 +0200
++++ src/build.c	2006-12-12 23:19:03.000000000 +0100
+@@ -377,7 +377,7 @@
+ 	for (fileindex = firstfile; fileindex < lastfile; ++fileindex) {
+ 			
+ 	    /* display the progress about every three seconds */
+-	    if (interactive == YES && fileindex % 10 == 0) {
++	    if ((interactive == YES || verbosemode == YES) && fileindex % 10 == 0) {
+ 		progress("Building symbol database", fileindex, lastfile);
+ 	    }
+ 	    /* if the old file has been deleted get the next one */
