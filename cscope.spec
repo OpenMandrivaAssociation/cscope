@@ -44,3 +44,35 @@ install contrib/xcscope/xcscope.el %{buildroot}%{_datadir}/emacs/site-lisp/
 %{_datadir}/emacs/site-lisp/xcscope.el
 
 
+
+
+%changelog
+* Fri Jul 06 2012 Alexander Khrukin <akhrukin@mandriva.org> 15.8-1
++ Revision: 808339
+- version update 15.8
+
+* Fri Sep 09 2011 trem <trem@mandriva.org> 15.7a-2
++ Revision: 699156
+- add xcscope.el from contrib
+
+* Wed May 06 2009 Funda Wang <fwang@mandriva.org> 15.7a-1mdv2011.0
++ Revision: 372616
+- New version 15.7a
+
+* Thu Mar 19 2009 Funda Wang <fwang@mandriva.org> 15.7-1mdv2009.1
++ Revision: 357627
+- BR flex
+- BR bison
+- New version 15.7
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 15.6-3mdv2009.0
++ Revision: 243798
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <blino@mandriva.org> 15.6-1mdv2008.1
++ Revision: 136347
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
