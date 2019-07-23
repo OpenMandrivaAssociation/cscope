@@ -6,7 +6,7 @@
 Summary:        %Summary
 Name:           %name
 Version:        %version
-Release:        %release
+Release:	1
 License: BSD
 Group: Development/Other
 Source0: http://downloads.sourceforge.net/cscope/%name-%version.tar.bz2
