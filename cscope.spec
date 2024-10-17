@@ -6,7 +6,7 @@ License: BSD
 Group: Development/Other
 Source0: http://downloads.sourceforge.net/cscope/%name-%version.tar.gz
 Patch0: cscope_prog_info.patch
-URL: http://cscope.sourceforge.net/
+URL: https://cscope.sourceforge.net/
 BuildRequires: ncurses-devel
 BuildRequires: bison flex
 
