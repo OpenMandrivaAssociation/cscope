@@ -1,7 +1,7 @@
 Summary:        C source file browser
 Name:           cscope
 Version:        15.9
-Release:	1
+Release:	2
 License: BSD
 Group: Development/Other
 Source0: http://downloads.sourceforge.net/cscope/%name-%version.tar.gz
