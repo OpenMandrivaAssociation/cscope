@@ -7,6 +7,11 @@ Group: Development/Other
 Source0: http://downloads.sourceforge.net/cscope/%name-%version.tar.gz
 Patch0: cscope_prog_info.patch
 URL: https://cscope.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: ncurses-devel
 BuildRequires: bison flex
 
